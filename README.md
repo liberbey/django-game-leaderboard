@@ -6,7 +6,7 @@ Project aims to create an **efficient leaderboard** for games with millions of u
 
 ## Technologies
 
-**Redis** is used as an in-memory database to decrease response time. **Silk** (/silk) is used for request monitoring. Application is deployed to **Heroku** and using the **PostgreSql** database provided by Heroku. Also a free Redis server is used which is provided by Redis Labs. Due to the restrictions of these free services, responses may be slow.
+**Redis** is used as an in-memory database to decrease response time. **Silk** (/silk) is used for request monitoring. Application is deployed to **Heroku** and using the **PostgreSql** database provided by Heroku. Also a free Redis server is used which is provided by Redis Labs. Due to the limitations of these free services, responses may be slow.
 
 For a deployment, please comment the "django_heroku.settings(locals())" line in settings.py, edit database configurations in settings.py and edit redis configurations in api/core/constants.py. 
 

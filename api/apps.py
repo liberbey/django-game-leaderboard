@@ -78,8 +78,8 @@ class ApiConfig(AppConfig):
         This function is called at initilization.
         :return: none
         """
-        import os
-        if os.environ.get('RUN_MAIN'):
+        import sys
+        if 'runserver' in sys.argv:
             logger.info("API app is ready to start.")
             # First, create redis sorted sets as leaderboards.
             with connection.cursor() as cursor:

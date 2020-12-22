@@ -228,8 +228,7 @@ Request:
 ```
 {
     "user_id": "66fd39d3-4314-11eb-8807-d8c0a63e9fd8",
-    "score_worth": 2899.72,
-    "timestamp": 1608659589,  **not necessary, will be now automatically
+    "score_worth": 99.72
 }
 ```
 

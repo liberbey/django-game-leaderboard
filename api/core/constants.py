@@ -6,8 +6,8 @@ import redis
 
 logger = logging.getLogger('django')
 redis_client = redis.StrictRedis(
-    host='redis-13161.c98.us-east-1-4.ec2.cloud.redislabs.com', port=13161, db=0,
-    charset="utf-8", password='cj9p4DgxTvBfi8ywisdpuHLQPMsyxAtg', decode_responses=True)
+    host='redis-14556.c12.us-east-1-4.ec2.cloud.redislabs.com', port=14556, db=0,
+    charset="utf-8", password='112358', decode_responses=True)
 
 LEADERBOARD = 'leaderboard'
 USER_MAP = 'user_map'

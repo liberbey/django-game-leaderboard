@@ -10,7 +10,7 @@ Project aims to create an **efficient leaderboard** for games with millions of u
 
 For a deployment, please comment the "django_heroku.settings(locals())" line in settings.py, edit database configurations in settings.py and edit redis configurations in api/core/constants.py. 
 
-Note: Memory usage of Redis can be calculated as N * 400 bytes where N is the number of users.
+Note: Memory usage of Redis can be calculated as N * 400 bytes where N is the number of users. This can be decreased by nearly half if necessary, but that may increase the time complexity of country leaderboard response.
 
 ## Endpoints
 
